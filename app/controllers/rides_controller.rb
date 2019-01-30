@@ -52,6 +52,6 @@ class RidesController < ProtectedController
 
   # Only allow a trusted parameter "white list" through.
   def ride_params
-    params.require(:ride).permit(:date, :location, :ride_time, :ride_distance)
+    params.require(:ride).permit(:date, :location, :ride_time, :ride_distance, :user_id)
   end
 end
