@@ -4,11 +4,14 @@ This is the developer documentation for a bike ride logging application that ref
 
 ### Github Repository Links
 The Github repositories for this project are located here:
+
 [Application Client](https://github.com/carlojacob/bike-ridr-client)
+
 [Application API](https://github.com/carlojacob/bike-ridr-api)
 
 ### Deployed Sites
 [Bike Ridr Client](https://carlojacob.github.io/bike-ridr-client/)
+
 [Bike Ridr API](https://bike-ridr-api.herokuapp.com/)
 
 ### What is Bike Ridr
@@ -20,6 +23,7 @@ Initial wireframes images:
 2. Signed in page.
 
 ![Wireframe image 1](https://i.imgur.com/s7Dczmr.jpg "Wireframe Image 1")
+
 3. New Ride input page.
 4. Ride history page.
 
