@@ -4,15 +4,12 @@ This is the developer documentation for a bike ride logging application that ref
 
 ### Github Repository Links
 The Github repositories for this project are located here:
-
-[Application Client](https://github.com/carlojacob/bike-ridr-client)
-
-[Application API](https://github.com/carlojacob/bike-ridr-api)
+- [Application Client](https://github.com/carlojacob/bike-ridr-client)
+- [Application API](https://github.com/carlojacob/bike-ridr-api)
 
 ### Deployed Sites
-[Bike Ridr Client](https://carlojacob.github.io/bike-ridr-client/)
-
-[Bike Ridr API](https://bike-ridr-api.herokuapp.com/)
+- [Bike Ridr Client](https://carlojacob.github.io/bike-ridr-client/)
+- [Bike Ridr API](https://bike-ridr-api.herokuapp.com/)
 
 ### What is Bike Ridr
 Bike Ridr is an application that can be used by cyclists to log date, location, distance and time data from their bike rides; then review, edit or delete previous ride data. User authentication and in-app requests are routed to and handled in this API. The database includes a users table and a rides table. The relationships between these tables are: `user has_many rides` and `rides belong_to user` All CRUD actions require user authentication before a response is sent to the client.
